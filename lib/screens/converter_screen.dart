@@ -118,16 +118,6 @@ class _ConverterScreenState extends State<ConverterScreen> {
 
               const SizedBox(height: 8),
 
-              // Text(
-              //   'Convert currencies using the latest available rates.',
-              //   style: TextStyle(
-              //     fontSize: 14,
-              //     color: Colors.grey.shade600,
-              //   ),
-              // ),
-
-              // const SizedBox(height: 30),
-
               // Conversion result
               if (_convertedAmount != null &&
                   _exchangeRate != null)
